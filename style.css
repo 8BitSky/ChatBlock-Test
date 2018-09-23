@@ -1,0 +1,55 @@
+body {
+background-color: White;
+color: #303030;
+font-family: 'Helvetica Neue', Arail, sans-serif;
+margin: 20px;
+}
+
+main {
+background-color: LightGray;
+margin: 20px auto;
+max-width: 450px;
+padding: 20px;
+border-radius: 25px;
+border: 2px outset Gray;
+box-shadow: 3px 3px 12px #c8c8c8;
+}
+
+.button {
+    background-color: Green;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ol {
+list-style-type:none;
+}
+
+li {
+padding: 10px;
+border-radius: 6px;
+}
+
+li:nth-child(odd) { 
+background: CornflowerBlue;
+border-left: 5px solid Blue; 
+}
+
+li:nth-child(even) { 
+background: PaleGreen;
+border-left: 5px solid Green; 
+}
+
+#initials {
+  width: 40px;
+}
+
+#message {
+  width: 315px;
+}
